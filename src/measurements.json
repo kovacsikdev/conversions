@@ -1,0 +1,22 @@
+[
+  {
+    "imperial": "Fahrenheit",
+    "metric": "Celsius"
+  },
+  {
+    "imperial": "Miles",
+    "metric": "Kilometers"
+  },
+  {
+    "imperial": "Pounds",
+    "metric": "Kilograms"
+  },
+  {
+    "imperial": "Feet",
+    "metric": "Meters"
+  },
+  {
+    "imperial": "Inches",
+    "metric": "Millimeters"
+  }
+]

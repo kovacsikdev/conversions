@@ -1,0 +1,34 @@
+.ConversionUnit {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0.75rem;
+
+  input {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 0.25rem 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: var(--background);
+    color: var(--color);
+  }
+
+  div {
+    flex: 1;
+  }
+
+  .spacer {
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .imperial {
+    text-align: right;
+
+    input {
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.App {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: auto;
+
+  .header {
+    display: flex;
+    justify-content: center;
+
+    strong {
+      padding: 0.75rem;
+      flex: 1;
+    }
+
+    strong:nth-child(1) {
+      text-align: right;
+    }
+  }
+
+  .center {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contents {
+    margin: 10px auto;
+  }
+}

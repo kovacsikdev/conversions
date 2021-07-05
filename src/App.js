@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ConversionUnit } from './components/ConversionUnit/ConversionUnit';
+import { ThemeSlider } from './components/ThemeSlider/ThemeSlider';
+import measurements from './measurements.json';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeSlider />
+
+      <div className="header">
+        <strong>Imperial</strong>
+        <div className="center">vs</div>
+        <strong>Metric</strong>
+      </div>
+
+      <div className="contents">
+        {
+          measurements.map((item, index) => {
+            return (
+              <ConversionUnit
+                key={`conversion_${index}`}
+                imperial={item.imperial}
+                metric={item.metric}
+              />
+            )
+          })
+        }
+      </div>
     </div>
   );
 }
