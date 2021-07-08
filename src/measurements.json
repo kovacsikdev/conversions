@@ -4,12 +4,12 @@
     "metric": "Celsius"
   },
   {
-    "imperial": "Miles",
-    "metric": "Kilometers"
-  },
-  {
     "imperial": "Pounds",
     "metric": "Kilograms"
+  },
+  {
+    "imperial": "Miles",
+    "metric": "Kilometers"
   },
   {
     "imperial": "Feet",
