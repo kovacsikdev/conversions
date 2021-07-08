@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render the app correctly 1`] = `
+<div
+  className="App"
+>
+  <ThemeSlider />
+  <div
+    className="header"
+  >
+    <strong>
+      Imperial
+    </strong>
+    <div
+      className="center"
+    >
+      vs
+    </div>
+    <strong>
+      Metric
+    </strong>
+  </div>
+  <div
+    className="contents"
+  >
+    <ConversionUnit
+      imperial="Fahrenheit"
+      key="conversion_0"
+      metric="Celsius"
+    />
+    <ConversionUnit
+      imperial="Miles"
+      key="conversion_1"
+      metric="Kilometers"
+    />
+    <ConversionUnit
+      imperial="Pounds"
+      key="conversion_2"
+      metric="Kilograms"
+    />
+    <ConversionUnit
+      imperial="Feet"
+      key="conversion_3"
+      metric="Meters"
+    />
+    <ConversionUnit
+      imperial="Inches"
+      key="conversion_4"
+      metric="Millimeters"
+    />
+  </div>
+</div>
+`;

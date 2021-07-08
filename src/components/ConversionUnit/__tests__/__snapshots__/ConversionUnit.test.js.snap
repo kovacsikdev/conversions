@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConversionUnit should render the component correctly 1`] = `
+<div
+  className="ConversionUnit"
+>
+  <div
+    className="imperial"
+  >
+    <label>
+      Pounds
+      <input
+        onChange={[Function]}
+        type="number"
+        value={0}
+      />
+    </label>
+  </div>
+  <div
+    className="spacer"
+  >
+    =
+  </div>
+  <div
+    className="metric"
+  >
+    <label>
+      Kilograms
+      <input
+        onChange={[Function]}
+        type="number"
+        value={0}
+      />
+    </label>
+  </div>
+</div>
+`;

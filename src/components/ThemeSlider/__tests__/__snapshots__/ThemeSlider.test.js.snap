@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeSlider should render the component correctly 1`] = `
+<div
+  className="ThemeSlider"
+>
+  <label
+    className="switch"
+  >
+    <img
+      alt="light"
+      src={
+        Object {
+          "canInstrument": true,
+          "createTransformer": [Function],
+          "getCacheKey": [Function],
+          "process": [Function],
+        }
+      }
+    />
+    <input
+      checked={false}
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="slider round"
+    />
+    <img
+      alt="dark"
+      src={
+        Object {
+          "canInstrument": true,
+          "createTransformer": [Function],
+          "getCacheKey": [Function],
+          "process": [Function],
+        }
+      }
+    />
+  </label>
+</div>
+`;
