@@ -4,21 +4,49 @@ exports[`App should render the app correctly 1`] = `
 <div
   className="App"
 >
-  <ThemeSlider />
   <div
     className="header"
   >
-    <strong>
-      Imperial
-    </strong>
+    <div
+      className="unit"
+    >
+      <strong>
+        Imperial
+      </strong>
+      <img
+        src={
+          Object {
+            "canInstrument": true,
+            "createTransformer": [Function],
+            "getCacheKey": [Function],
+            "process": [Function],
+          }
+        }
+      />
+    </div>
     <div
       className="center"
     >
       vs
     </div>
-    <strong>
-      Metric
-    </strong>
+    <div
+      className="unit"
+    >
+      <strong>
+        Metric
+      </strong>
+      <img
+        src={
+          Object {
+            "canInstrument": true,
+            "createTransformer": [Function],
+            "getCacheKey": [Function],
+            "process": [Function],
+          }
+        }
+      />
+    </div>
+    <ThemeSlider />
   </div>
   <div
     className="contents"
@@ -29,14 +57,14 @@ exports[`App should render the app correctly 1`] = `
       metric="Celsius"
     />
     <ConversionUnit
-      imperial="Miles"
+      imperial="Pounds"
       key="conversion_1"
-      metric="Kilometers"
+      metric="Kilograms"
     />
     <ConversionUnit
-      imperial="Pounds"
+      imperial="Miles"
       key="conversion_2"
-      metric="Kilograms"
+      metric="Kilometers"
     />
     <ConversionUnit
       imperial="Feet"
