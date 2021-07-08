@@ -4,11 +4,6 @@
   min-width: 330px;
   margin: auto;
 
-  .ThemeSlider {
-    position: absolute;
-    right: 0;
-  }
-
   .header {
     display: flex;
     justify-content: center;
@@ -17,20 +12,29 @@
     .unit {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
+      text-align: left;
+      padding: 0.75rem;
+      flex: 1;
+
+      &:nth-child(1) {
+        text-align: right;
+        align-items: flex-end;
+      }
+
+      &:nth-child(2) {
+        text-align: left;
+        align-items: flex-start;
+      }
 
       img {
         width: 32px;
       }
+    }
 
-      strong {
-        padding: 0.75rem;
-        flex: 1;
-      }
-
-      strong:nth-child(1) {
-        text-align: right;
-      }
+    .ThemeSlider {
+      position: absolute;
+      right: 0;
     }
   }
 
