@@ -2,17 +2,25 @@ import React from 'react';
 import { ConversionUnit } from './components/ConversionUnit/ConversionUnit';
 import { ThemeSlider } from './components/ThemeSlider/ThemeSlider';
 import measurements from './measurements.json';
+import usIcon from './assets/us-icon.png';
+import worldIcon from './assets/world-icon.png';
 import './App.scss';
 
 export const App = () => {
   return (
     <div className="App">
-      <ThemeSlider />
 
       <div className="header">
-        <strong>Imperial</strong>
+        <div className="unit">
+          <strong>Imperial</strong>
+          <img src={usIcon} />
+        </div>
         <div className="center">vs</div>
-        <strong>Metric</strong>
+        <div className="unit">
+          <strong>Metric</strong>
+          <img src={worldIcon} />
+        </div>
+        <ThemeSlider />
       </div>
 
       <div className="contents">
