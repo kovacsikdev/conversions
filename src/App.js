@@ -13,12 +13,12 @@ export const App = () => {
       <div className="header">
         <div className="unit">
           <strong>Imperial</strong>
-          <img src={usIcon} />
+          <img src={usIcon} alt="USA"/>
         </div>
         <div className="center">vs</div>
         <div className="unit">
           <strong>Metric</strong>
-          <img src={worldIcon} />
+          <img src={worldIcon} alt="World"/>
         </div>
         <ThemeSlider />
       </div>

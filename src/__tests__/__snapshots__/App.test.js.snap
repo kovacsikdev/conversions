@@ -14,6 +14,7 @@ exports[`App should render the app correctly 1`] = `
         Imperial
       </strong>
       <img
+        alt="USA"
         src={
           Object {
             "canInstrument": true,
@@ -36,6 +37,7 @@ exports[`App should render the app correctly 1`] = `
         Metric
       </strong>
       <img
+        alt="World"
         src={
           Object {
             "canInstrument": true,
