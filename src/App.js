@@ -4,7 +4,7 @@ import { ThemeSlider } from './components/ThemeSlider/ThemeSlider';
 import measurements from './measurements.json';
 import './App.scss';
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
       <ThemeSlider />
@@ -31,5 +31,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

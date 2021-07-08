@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { themes } from './themes';
-import sunIcon from '../../assets/rsz_sun-icon.png';
-import nightIcon from '../../assets/rsz_night-icon.png';
+import sunIcon from '../../assets/sun-icon.png';
+import nightIcon from '../../assets/night-icon.png';
 import './ThemeSlider.scss';
 
 export const ThemeSlider = () => {
-  const [themeName, setThemeName] = useState(themes.themeName);
+  const [themeName, setThemeName] = React.useState(themes.themeName);
 
   const setCSSVariables = theme => {
     for (const value in theme) {
@@ -23,30 +23,30 @@ export const ThemeSlider = () => {
     }
   };
 
-  useEffect(() => {
+  React.useEffect(() => {
     const savedTheme = localStorage.getItem('themeName');
 
     if(savedTheme){
       setThemeName(savedTheme);
     }
-  }, [])
+  }, []);
 
-  useEffect(() => {
+  React.useEffect(() => {
     setCSSVariables(themes[themeName]);
   }, [themeName]);
 
   return (
     <div className="ThemeSlider">
-      <img src={sunIcon} alt="light" />
       <label className="switch">
+        <img src={sunIcon} alt="light" />
         <input
           checked={themeName === 'dark'}
           type="checkbox"
           onChange={toggleTheme}
         />
         <span className="slider round"></span>
+        <img src={nightIcon} alt="dark"/>
       </label>
-      <img src={nightIcon} alt="dark"/>
     </div>
   )
 }
