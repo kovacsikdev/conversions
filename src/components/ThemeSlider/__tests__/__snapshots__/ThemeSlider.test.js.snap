@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ThemeSlider should render the component correctly 1`] = `
+exports[`components/ThemeSlider should render the component correctly 1`] = `
 <div
   className="ThemeSlider"
 >
