@@ -7,8 +7,13 @@ const mockData = {
   metric: 'Kilograms'
 }
 const mockEvent = { target: { value: 10 } };
+const mockSelect = { 
+  target: {
+    select: jest.fn()
+  }
+}
 
-describe("ConversionUnit", () => {
+describe("components/ConversionUnit", () => {
 
   it('should render the component correctly', () => {
     const wrapper = shallow(<ConversionUnit {...mockData}/>);
@@ -58,5 +63,19 @@ describe("ConversionUnit", () => {
 
     // Imperial input should not be zero anymore
     expect(imperialNum).not.toEqual(0);
+  });
+
+  it('should automatically select the input fields on focus', () => {
+    // Need to rethink this test and figure out how to check if the input field
+    // is automatically selected on focus
+    const wrapper = shallow(<ConversionUnit {...mockData}/>);
+    const imperialInput = wrapper.find('input').at(0);
+    const metricInput = wrapper.find('input').at(1);
+
+    metricInput.simulate('focus', mockSelect);
+    expect(mockSelect.target.select).toHaveBeenCalledTimes(1);
+
+    imperialInput.simulate('focus', mockSelect);
+    expect(mockSelect.target.select).toHaveBeenCalledTimes(2);
   });
 });

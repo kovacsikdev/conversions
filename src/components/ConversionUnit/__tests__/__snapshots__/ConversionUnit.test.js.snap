@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ConversionUnit should render the component correctly 1`] = `
+exports[`components/ConversionUnit should render the component correctly 1`] = `
 <div
   className="ConversionUnit"
 >
