@@ -11,6 +11,7 @@ exports[`ConversionUnit should render the component correctly 1`] = `
       Pounds
       <input
         onChange={[Function]}
+        onFocus={[Function]}
         type="number"
         value={0}
       />
@@ -28,6 +29,7 @@ exports[`ConversionUnit should render the component correctly 1`] = `
       Kilograms
       <input
         onChange={[Function]}
+        onFocus={[Function]}
         type="number"
         value={0}
       />

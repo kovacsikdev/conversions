@@ -26,6 +26,7 @@ export const ConversionUnit = ({imperial, metric}) => {
             onChange={e =>{
               updateMetricNum(e.target.value)
             }}
+            onFocus={e => {e.target.select();}}
           />
         </label>
       </div>
@@ -38,6 +39,7 @@ export const ConversionUnit = ({imperial, metric}) => {
             onChange={e =>{
               updateImperialNum(e.target.value)
             }}
+            onFocus={e => {e.target.select();}}
           />
         </label>
       </div>
