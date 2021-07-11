@@ -1,6 +1,6 @@
 import { formulas } from '../formulas';
 
-describe("formulas", () => {
+describe("lib/formulas", () => {
   it.each([
     ['fahrenheit', 10, -12.22],
     ['celsius', 10, 50],
