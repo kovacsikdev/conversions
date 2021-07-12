@@ -79,5 +79,16 @@ exports[`App should render the app correctly 1`] = `
       metric="Millimeters"
     />
   </div>
+  <div
+    className="reflink"
+  >
+    <a
+      href="https://github.com/kovacsikdev/conversions"
+      rel="noreferrer"
+      target="_blank"
+    >
+      https://github.com/kovacsikdev/conversions
+    </a>
+  </div>
 </div>
 `;

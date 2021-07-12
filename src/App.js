@@ -40,6 +40,12 @@ export const App = () => {
           })
         }
       </div>
+
+      <div className="reflink">
+        <a href="https://github.com/kovacsikdev/conversions" target="_blank" rel="noreferrer">
+          https://github.com/kovacsikdev/conversions
+        </a>
+      </div>
     </div>
   );
 }
