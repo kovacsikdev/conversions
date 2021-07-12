@@ -1,5 +1,5 @@
 {
-  "short_name": "Conversions",
+  "short_name": "Imperial V Metric",
   "name": "Imperial VS Metric conversions",
   "description": "Simple app to quickly convert common measurements between the Imperial and Metric systems",
   "orientation": "portrait",
@@ -7,7 +7,7 @@
     {
       "src": "applogo64.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
       "src": "applogo192.png",
@@ -20,7 +20,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
