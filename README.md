@@ -18,7 +18,7 @@ The Imperial versus Metric app is a simple way to convert different, common, mea
 
 This is a PWA app. This means that viewing the app on your mobile device, you can add the app to your homescreen so that it can behave as a native app. The app will appear on your device like any other app that you install from Google Play or the App Store. The app is designed to work offline, so you can still use the app even if you are in aireplane mode or do not have any WiFi / data available.
 
-![mobile](https://kovacsikdev-media.s3.amazonaws.com/imperial-v-metric-mobile-pwa.jpg)
+![mobile](https://kovacsikdev-media.s3.amazonaws.com/imperial-v-metric-mobile-pwa.jpg | width=300)
 
 ## Run locally
 
