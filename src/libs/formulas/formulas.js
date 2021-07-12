@@ -1,3 +1,9 @@
+/**
+ * Object containing conversions for Imperial and Metric measurements
+ * @Object
+ *
+ * @return {number} The converted value
+ */
 export const formulas = {
   fahrenheit: num => {    // Convert to Celsius
     return (num - 32) * (5/9);

@@ -1,6 +1,6 @@
 # Imperial Vs Metric Conversion
 
-The Imperial verus Metric app is a simple way to convert different, common, measurements between the Imperial and Metric systems. See the app [here](https://kovacsikdev.github.io/conversions/).
+The Imperial versus Metric app is a simple way to convert different, common, measurements between the Imperial and Metric systems. See the app [here](https://kovacsikdev.github.io/conversions/).
 
 ## Features
 
