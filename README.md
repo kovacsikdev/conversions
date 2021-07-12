@@ -2,6 +2,8 @@
 
 The Imperial versus Metric app is a simple way to convert different, common, measurements between the Imperial and Metric systems. See the app [here](https://kovacsikdev.github.io/conversions/).
 
+![app](https://kovacsikdev-media.s3.amazonaws.com/imperial-v-metric-app.png)
+
 ## Features
 
 #### Easily convert between
